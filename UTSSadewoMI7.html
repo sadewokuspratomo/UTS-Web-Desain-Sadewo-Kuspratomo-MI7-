@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NUSANTARA MOTOR FEST 2025 - UTS Web Desain 2 | Paket C</title>
+  <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+  <style>
+    /* =============================================
+       STYLE DASAR SUDAH DISIAPKAN - JANGAN DIUBAH
+       ============================================= */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f0;
+      color: #02033f;
+    }
+    .hero {
+      background: #02033f;
+      padding: 90px 0 70px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #f4f4f0;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    .hero h1 span {
+      color: #114be9;
+    }
+    .hero p {
+      color: #888;
+      font-size: 1rem :
+    }
+     .section-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #02033f;
+      border-left: 5px solid #114be9;
+      padding-left: 15px;
+      margin-bottom: 30px;
+    }
+    section {
+      padding: 60px 0;
+      border-bottom: 1px solid #e0ddd8;
+    }
+    .soal-label {
+      display: inline-block;
+      background: #114be9;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    /* Kartu motor/peserta */
+    .motor-card {
+      background: #fff;
+      border: 1px solid #e0ddd8;
+      border-radius: 10px;
+      padding: 20px 16px;
+      height: 100%;
+    }
+    .motor-card .motor-num {
+      display: inline-block;
+      background: #114be9;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 900;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+    .motor-card h5 {
+      color: #02033f;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .motor-card p {
+      color: #888;
+      font-size: 0.82rem;
+      margin: 0;
+    }
+ .motor-card .category-tag {
+      display: inline-block;
+      background: #f4f4f0;
+      color: #555;
+      font-size: 0.68rem;
+      padding: 2px 8px;
+      border-radius: 3px;
+      margin-top: 8px;
+      font-weight: 600;
+      letter-spacing: 0.05rem;
+    }
+    /* Tiket */
+    .ticket-card {
+      background: #fff;
+      border: 1px solid #e0ddd8;
+      border-radius: 10px;
+      padding: 24px 18px;
+      height: 100%;
+    }
+    .ticket-card .price {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #02033f;
+    }
+    .ticket-card.featured {
+      border: 2px solid #114be9;
+      background: #fff8f8;
+    }
+    .ticket-card.featured .price {
+      color: #114be9;
+    }
+    /* Footer */
+    footer {
+      background: #02033f;
+      text-align: center;
+      padding: 28px;
+      color: #555;
+      font-size: 0.82rem;
+    }
+    /* =============================================
+       TAMBAHKAN CSS KUSTOM KAMU DI BAWAH INI
+       (untuk Soal 5 - Kreativitas Desain)
+       ============================================= */
+  </style>
+</head>
+<body>
+<!-- ==============================
+     HERO SECTION (Sudah Lengkap)
+     ============================== -->
+<div class="hero">
+ <div class="container">
+    <h1>nn NUSANTARA <span>MOTOR</span> FEST 2025</h1>
+    <p>Festival Otomotif Terbesar — Pameran, Kontes Modifikasi & Drag Race</p>
+    <p>
+      <strong style="color:#114be9;">5–7 September 2025</strong> &nbsp;|&nbsp;
+      <strong style="color:#114be9;">Pekanbaru Convention Center, Riau</strong>
+    </p>
+  </div>
+</div>
+<!-- ============================================================
+     SOAL 1 — SISTEM GRID BOOTSTRAP
+     Lengkapi [...] dengan class Bootstrap yang tepat
+     ============================================================ -->
+<section id="peserta">
+  <div class="container">
+    <span class="soal-label">Soal 1 — Grid Bootstrap</span>
+    <h2 class="section-title">Peserta Kontes Modifikasi</h2>
+    <p class="text-muted mb-4">
+  
+    </p>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="motor-card">
+          <span class="motor-num">#001</span>
+          <h5>Honda CB650R — "Shadow Reaper"</h5>
+          <p>Peserta: Budi Santoso | Asal: Pekanbaru</p>
+          <span class="category-tag">Street Fighter</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="motor-card">
+          <span class="motor-num">#002</span>
+          <h5>Yamaha R25 — "Red Venom"</h5>
+          <p>Peserta: Andi Pratama | Asal: Medan</p>
+          <span class="category-tag">Sport Fairing</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="motor-card">
+          <span class="motor-num">#003</span>
+          <h5>Kawasaki Z900 — "Iron Ghost"</h5>
+          <p>Peserta: Reza Maulana | Asal: Palembang</p>
+          <span class="category-tag">Naked Bike</span>
+        </div>
+      </div>
+ <div class="col-12 col-md-6 col-lg-4">
+        <div class="motor-card">
+          <span class="motor-num">#004</span>
+          <h5>Suzuki GSX-R — "Blue Thunder"</h5>
+          <p>Peserta: Doni Firmansyah | Asal: Batam</p>
+          <span class="category-tag">Sport Fairing</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="motor-card">
+          <span class="motor-num">#005</span>
+          <h5>Royal Enfield — "Desert King"</h5>
+          <p>Peserta: Hendra Wijaya | Asal: Jambi</p>
+          <span class="category-tag">Classic Custom</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="motor-card">
+          <span class="motor-num">#006</span>
+          <h5>Harley Sportster — "Night Wolf"</h5>
+          <p>Peserta: Fajar Nugroho | Asal: Padang</p>
+          <span class="category-tag">Chopper</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============================================================
+     SOAL 2 — TABEL BOOTSTRAP
+     Lengkapi [...] dengan class Bootstrap yang tepat
+     ============================================================ -->
+<section id="jadwal">
+  <div class="container">
+    <span class="soal-label">Soal 2 — Tabel Bootstrap</span>
+    <h2 class="section-title">Jadwal Event</h2>
+    <p class="text-muted mb-4">
+      <em>Instruksi: Isi [...2a] dan [...2b] agar tabel tampil
+      <strong>bergaris (bordered)</strong>, <strong>baris selang-seling
+(striped)</strong>,
+      <strong>efek hover</strong>, dan <strong>responsif di HP</strong>.</em>
+    </p>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped table-hover mt-4">
+        <thead class="thead-dark">
+          <tr>
+            <th>Hari</th>
+ <th>Waktu</th>
+            <th>Acara</th>
+            <th>Kategori</th>
+            <th>Lokasi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hari 1 (5 Sep)</td>
+            <td>09.00 – 12.00</td>
+            <td>Registrasi & Technical Check</td>
+            <td>Semua Peserta</td>
+            <td>Hall A</td>
+          </tr>
+          <tr>
+            <td>Hari 1 (5 Sep)</td>
+            <td>14.00 – 17.00</td>
+            <td>Pameran Motor Custom</td>
+            <td>Custom & Classic</td>
+            <td>Hall B</td>
+          </tr>
+          <tr>
+            <td>Hari 2 (6 Sep)</td>
+            <td>08.00 – 12.00</td>
+            <td>Drag Race Qualifying</td>
+            <td>Sport & Naked</td>
+            <td>Track Utama</td>
+          </tr>
+          <tr>
+            <td>Hari 2 (6 Sep)</td>
+            <td>13.00 – 17.00</td>
+            <td>Kontes Modifikasi — Penilaian</td>
+            <td>Street Fighter</td>
+            <td>Hall A</td>
+          </tr>
+          <tr>
+            <td>Hari 3 (7 Sep)</td>
+            <td>09.00 – 12.00</td>
+            <td>Drag Race Final</td>
+            <td>Sport & Naked</td>
+            <td>Track Utama</td>
+          </tr>
+          <tr>
+            <td>Hari 3 (7 Sep)</td>
+            <td>15.00 – 18.00</td>
+            <td>Awarding & Closing Ceremony</td>
+            <td>Semua Kategori</td>
+            <td>Main Stage</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- ============================================================
+     SOAL 3 — FORM BOOTSTRAP
+     Lengkapi [...] dengan class Bootstrap yang tepat
+     ============================================================ -->
+<section id="daftar">
+  <div class="container">
+    <span class="soal-label">Soal 3 — Form Bootstrap</span>
+    <h2 class="section-title">Daftar Peserta</h2>
+    <p class="text-muted mb-4">
+     
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card p-4 atau bg-white p-4 rounded">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nama">Nama Lengkap</label>
+              <input type="text" class="form-control" id="nama" placeholder="Nama pemilik
+motor"/>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="kota">Kota Asal</label>
+              <input type="text" class="form-control" id="kota" placeholder="Kota asal
+peserta"/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="[form-group] col-md-6">
+              <label for="telp">Nomor Telepon</label>
+              <input type="tel" class="form-control" id="telp" placeholder="08xxxxxxxxxx"/>
+            </div>
+            <div class="[form-group col-md-6">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email"
+placeholder="email@domain.com"/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="motor">Merek & Tipe Motor</label>
+              <input type="text" class="form-control" id="motor" placeholder="Contoh: Honda
+CB650R"/>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="kategori">Kategori Kontes</label>
+          <select class="form-control" id="kategori">
+                <option value="">— Pilih Kategori —</option>
+                <option>Street Fighter</option>
+                <option>Sport Fairing</option>
+                <option>Naked Bike</option>
+                <option>Classic Custom</option>
+                <option>Chopper</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="deskripsi">Deskripsi Modifikasi</label>
+            <textarea class="form-control" id="deskripsi" rows="3"
+              placeholder="Ceritakan singkat konsep modifikasi motor kamu..."></textarea>
+            <small class="form-text text-muted">Maksimal 200 karakter. Akan ditampilkan di katalog
+peserta.</small>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="syarat"/>
+              <label class="form-check-label" for="syarat">
+                Saya menyatakan motor yang didaftarkan adalah milik sendiri dan memenuhi
+syarat teknis.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Daftarkan Motor Saya
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============================================================
+     SOAL 4 — BUAT DARI WIREFRAME
+     Lihat wireframe di soal PDF, buat section Tiket Penonton
+     ============================================================ -->
+<section id="tiket">
+  <div class="container">
+    <span class="soal-label">Soal 4 — Implementasi Wireframe</span>
+    <h2 class="section-title">Tiket Penonton</h2>
+    <p class="text-muted mb-4">
+      <em>Instruksi: Lihat wireframe pada soal PDF. Buat section Tiket Penonton
+      sesuai dengan layout wireframe menggunakan Bootstrap.
+      Kamu bebas menentukan warna, teks, dan detail desainnya.</em>
+    </p>
+<div class="row">
+  <div class="col-12 col-md-4 mb-4">
+    <div class="ticket-card text-center">
+      <h5 class="font-weight-bold">Daily Pass</h5>
+      <p class="text-muted">Akses 1 hari</p>
+      <p class="price">Rp 50.000</p>
+      <ul class="list-unstyled text-muted small">
+        <li>✓ Pameran Motor</li>
+        <li>✓ Area Foodcourt</li>
+        <li>✗ Tribun Drag Race</li>
+      </ul>
+      <a href="#" class="btn btn-outline-dark btn-block">Beli Tiket</a>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 mb-4">
+    <div class="ticket-card featured text-center">
+      <span class="badge badge-primary mb-2">Best Value</span>
+      <h5 class="font-weight-bold">Full Pass</h5>
+      <p class="text-muted">Akses 3 hari penuh</p>
+      <p class="price">Rp 120.000</p>
+      <ul class="list-unstyled text-muted small">
+        <li>✓ Pameran Motor</li>
+        <li>✓ Area Foodcourt</li>
+        <li>✓ Tribun Drag Race</li>
+      </ul>
+      <a href="#" class="btn btn-primary btn-block">Beli Tiket</a>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 mb-4">
+    <div class="ticket-card text-center">
+      <h5 class="font-weight-bold">VIP Pass</h5>
+      <p class="text-muted">Akses eksklusif + merchandise</p>
+      <p class="price">Rp 250.000</p>
+      <ul class="list-unstyled text-muted small">
+        <li>✓ Semua akses Full Pass</li>
+        <li>✓ Meet & Greet peserta</li>
+        <li>✓ Merchandise eksklusif</li>
+      </ul>
+      <a href="#" class="btn btn-outline-dark btn-block">Beli Tiket</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+<!-- ============================================================
+     SOAL 5 — MODIFIKASI DESAIN BEBAS
+     Buat section Kontak dengan kreativitasmu sendiri
+     ============================================================ -->
+<section id="kontak">
+  <div class="container">
+    <span class="soal-label">Soal 5 — Kreativitas Desain</span>
+    <h2 class="section-title">Hubungi Panitia</h2>
+    <p class="text-muted mb-4">
+      <em>Instruksi: Buat section kontak sesuai kreativitasmu.
+      Gunakan Bootstrap untuk layout. Minimal berisi:
+      alamat, email, nomor telepon, dan media sosial event.</em>
+    </p>
+    <!-- /n TULIS KODE KREATIFMU DI BAWAH INI -->
+    <!-- /n AKHIR SOAL 5 -->
+     <div class="row">
+  <div class="col-md-6 mb-4">
+    <div class="card p-4 h-100">
+      <h5 class="font-weight-bold mb-3">📍 Lokasi Event</h5>
+      <p class="mb-1"><strong>Pekanbaru Convention Center</strong></p>
+      <p class="text-muted">Jl. Sudirman No. 88, Pekanbaru, Riau 28111</p>
+      
+      <h5 class="font-weight-bold mt-4 mb-3">📞 Kontak</h5>
+      <p class="mb-1">Telepon: <a href="tel:+6276112345">+62 761 12345</a></p>
+      <p class="mb-1">WhatsApp: <a href="[wa.me](https://wa.me/6282384696391)">0823-8469-6391</a></p>
+      <p>Email: <a href="mailto:info@nusantaramotorfest.id">info@nusantaramotorfest.id</a></p>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card p-4 h-100">
+      <h5 class="font-weight-bold mb-3">🌐 Media Sosial</h5>
+      <div class="d-flex flex-wrap">
+        <a href="#" class="btn btn-outline-dark mr-2 mb-2">Instagram</a>
+        <a href="#" class="btn btn-outline-dark mr-2 mb-2">Facebook</a>
+        <a href="#" class="btn btn-outline-dark mr-2 mb-2">YouTube</a>
+        <a href="#" class="btn btn-outline-dark mb-2">TikTok</a>
+      </div>
+      <p class="text-muted mt-3 small">Follow @NusantaraMotorFest untuk info terbaru!</p>
+      
+      <h5 class="font-weight-bold mt-4 mb-3">⏰ Jam Operasional Sekretariat</h5>
+      <p class="mb-1">Senin – Jumat: 09.00 – 17.00 WIB</p>
+      <p class="text-muted">Sabtu – Minggu: Tutup</p>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+<footer>
+  <p>SK NUSANTARA MOTOR FEST 2025 &copy; Hak Cipta Dilindungi | UTS Web Desain 2 — Paket C</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+></script>
+</body>
+</html>
